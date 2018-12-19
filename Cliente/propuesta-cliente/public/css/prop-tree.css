@@ -1,0 +1,34 @@
+.node p.node-name {
+    margin: 2px 3px;
+}
+
+#tree-simple .node::after {
+        position: absolute;
+        display: block;
+        content: attr(data-desc);
+        bottom: -20px;
+        right: 75%;
+        color: red;
+        font-size: 13px;
+        text-transform: lowercase;
+}
+
+#tree-simple .node p{
+    background: #32383e !important;
+    color: white;
+    padding: 3px 8px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+#tree-simple {
+    margin-bottom: 40px;
+}
+.play {
+    cursor: pointer;
+}
+
+#tablaarbol {
+    max-height: 400px !important;
+    display: block;
+    overflow: auto;
+}

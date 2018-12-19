@@ -1,0 +1,6 @@
+antlr4-python3-runtime==4.7.2
+Django==2.1.4
+django-cors-headers==2.4.0
+djangorestframework==3.9.0
+jsonfield==2.0.2
+pytz==2018.7
